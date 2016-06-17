@@ -19,8 +19,8 @@ El objetivo de este patrón es asegurar que sólo exista una única instancia de
 #Como usar
 Creamos la instancia de la clase donde queremos hacer uso de ella:
 
-```ConexionMySQL conexionMySQL = new ConexionMySQL();```
+``` ConexionMySQL conexionMySQL = new ConexionMySQL(); ```
 
 Enseguida hacemos llamamos al método `getConnection()`:
 
-```conexionMySQL.getConnection();```
+``` conexionMySQL.getConnection(); ```
